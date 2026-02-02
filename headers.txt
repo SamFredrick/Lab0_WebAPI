@@ -1,0 +1,17 @@
+REQUEST HEADERS
+User-Agent: Identifies the client software making the request (Postman Runtime)
+Accept: Indicates the response formats the client can accept
+Postman-Token: Used by Postman to track and manage request execution
+Host: The domain name of the server receiving the request
+Accept-Encoding: Specifies compression formats supported by the client
+Connection: Indicates whether the network connection should remain open
+
+RESPONSE HEADERS
+Server: Identifies the web server software handling the request (nginx)
+Date: The date and time the server generated the response
+Content-Type: Indicates the format of the response body (application/json)
+Transfer-Encoding: Shows how the response body is sent (chunked)
+Access-Control-Allow-Origin: Specifies which origins are allowed to access the resource
+Access-Control-Allow-Methods: Lists HTTP methods allowed by the server
+Referrer-Policy: Controls how much referrer information is included in requests
+Content-Encoding: Indicates the compression applied to the response body
